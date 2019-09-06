@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'ui-my-control-library',
   template: `
     <p>
-      my-control-library works!
+      my-control-library works well!!! @@@
     </p>
   `,
   styles: []
