@@ -41,3 +41,8 @@ NOTE: in order for this to work, you will need to be building the component libr
 ```
 ng build my-control-library --watch
 ```
+
+7. Move the templates and styles in the component library to their own files.  In order for this to work you will also need to install node-sass.
+```
+npm install node-sass --save-dev
+```
