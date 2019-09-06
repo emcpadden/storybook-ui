@@ -16,3 +16,8 @@ ng g lib my-control-library -p ui
 ```
 npx @storybook/cli init
 ```
+
+4. Fix Can't resolve all parameters for AppComponent: (?, ?, [object Object]). issue when running storybook (npm run storybook) by adding the following to the tsconfig file:
+```
+    "emitDecoratorMetadata": true,
+```
